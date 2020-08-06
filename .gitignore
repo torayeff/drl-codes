@@ -3,3 +3,6 @@ data/
 .idea/
 .ipynb_checkpoints/
 __pycache__/
+Banana.app
+unity-environment.log
+.empty
