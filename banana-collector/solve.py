@@ -25,11 +25,11 @@ agent = Agent(state_size=brain.vector_observation_space_size,
               action_size=brain.vector_action_space_size,
               device=device,
               buffer_size=int(1e4),
-              batch_size=64,
+              batch_size=32,
               gamma=0.99,
               tau=1e-3,
               lr=1e-3,
-              update_every=4)
+              update_every=2)
 
 start = time()
 scores = agent.train(env)
