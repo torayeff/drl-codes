@@ -2,7 +2,7 @@
 
 ## Environment
 <p align="center">
-  <img src="animation.gif">
+  <img width="460" src="animation.gif">
 </p>
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
