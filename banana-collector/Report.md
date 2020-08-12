@@ -23,6 +23,7 @@ Adam optimizer is used for the optimizing of the network parameters.
 ## Plot
 The task is considered solved when the agent gets an average score of +13 over 100 consecutive episodes.
 `buffer_size = 1e4` and `update_every = 2` hyperaparameters allowed me to solve the task in 500+ episodes. Training was done completely on CPU.
+![](episodes_scores.png)
 
 ## Future Work
 Implement [Rainbow](https://arxiv.org/abs/1710.02298) algorithm and verify the effectiveness of the proposed approaches.
